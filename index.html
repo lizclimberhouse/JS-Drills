@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>JS Drills</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1>Liz's JavaScript Practice</h1>
+
+    <div>
+      <label>Name: </label>
+      <input id='myName'>
+    </div>
+    <div>
+      <label >Number 1: </label>
+      <input id='num1'>
+      <label>Number 2: </label>
+      <input id='num2'>      
+      
+    </div>
+
+    <div class="clearfix">
+      <button onclick='getInfo()' class="choice" id="add"> + </button>
+      <button onclick='getInfo()' class="choice" id="minus"> - </button>
+      <button onclick='getInfo()' class="choice" id="times"> * </button>
+      <button onclick='getInfo()' class="choice" id="divide"> / </button>
+      <br>
+      <button onclick='clearList()'>Clear</button>
+      <h1>Hello <label id='nameOut'></label>!</h1>
+      <h1>Total is: <label id='userTotal'></label></h1>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
